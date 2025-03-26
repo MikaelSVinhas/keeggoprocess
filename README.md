@@ -8,7 +8,7 @@ Este projeto foi desenvolvido utilizando o Cypress juntamente com o Cucumber, e 
 O projeto utiliza as versões `v23.09.0` e `10.9.2` de Node.js e npm respectivamente.
 
 ```bash
-  cd kg-project
+  cd keeggoprocess
   npm install
 ```
     
