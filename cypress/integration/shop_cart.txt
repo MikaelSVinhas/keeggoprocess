@@ -1,0 +1,24 @@
+# Feature: Carrinho de compras
+#       Como usuário
+#       Eu desejo adicionar produtos ao meu carrinho de compras
+#       E se necessário realizar um checkout simples
+#       E preciso validar se todos os campos obrigatórios foram preenchidos corretamente
+
+#   Scenario: Adicionar Produto ao Carrinho
+#             Given que o usuário visualiza o produto "Air Pods"
+#             When o usuário clicar no botão "Adicionar ao Carrinho" do produto "Air Pods"
+#             And o produto "Air Pods" deve ser adicionado ao carrinho com sucesso
+#             Then eu valido se as informações no carrinho estão corretas
+
+#   Scenario: Realizar um Checkout Simples
+#             Given que o usuário preenche os campos obrigatórios com as informações válidas
+#             And o usuário escolhe o método de pagamento "Cartão de Crédito"
+#             When o usuário clicar no botão "Finalizar Compra"
+#             Then o sistema deve exibir a mensagem "Compra realizada com sucesso"
+
+#   Scenario: Tentativa de finalizar o checkout sem preencher todos os campos obrigatórios
+#             Given que tenha produtos no carrinho
+#             And o usuário preenche os campos obrigatórios parcialmente
+#             And o usuário não preenche o campo "Endereço"
+#             When o usuário clicar no botão "Finalizar Compra"
+#             Then o sistema deve exibir a mensagem de erro "Campo Endereço é obrigatório"
